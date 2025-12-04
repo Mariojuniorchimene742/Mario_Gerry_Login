@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">LoginAppMario_Gerry</string>
+    <string name="intro_frase_um">igrejas+</string>
+    <string name="intro_frase_dois">Bem vindo a nossa aplicação</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
 </resources>
