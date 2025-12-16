@@ -8,6 +8,7 @@
     android:background="@color/yellow"
     tools:context=".MainActivity">
 
+
     <ImageView
         android:id="@+id/imageViewLogo"
         android:layout_width="100dp"
@@ -18,22 +19,22 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_pap" />
+        app:srcCompat="@drawable/whatsapp_image_2025_12_04_at_13_14_24"
+      " />
 
     <TextView
         android:id="@+id/textViewFraseUm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Igrejas+"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:textFontWeight="900"
         android:textAllCaps="true"
         android:textColor="@color/black"
-        android:layout_marginTop="10dp"
+        android:textFontWeight="900"
+        android:textSize="15sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewLogo" />
+        tools:layout_editor_absoluteY="186dp" />
 
     <TextView
         android:id="@+id/textViewFraseDois"

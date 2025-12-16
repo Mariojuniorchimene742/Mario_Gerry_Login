@@ -18,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_pap" />
+        app:srcCompat="@drawable/whatsapp_image_2025_12_04_at_13_14_24" />
 
     <TextView
         android:id="@+id/textViewFraseUm"
