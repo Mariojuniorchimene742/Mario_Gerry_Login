@@ -50,8 +50,8 @@
 
     <LinearLayout
         android:id="@+id/login_inputs"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="315dp"
+        android:layout_height="368dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
@@ -59,14 +59,14 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.608"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewFraseDois"
         app:layout_constraintVertical_bias="0.0">
 
 
         <EditText
-            android:id="@+id/editTextemailAddress"
+            android:id="@+id/emailEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -77,7 +77,7 @@
             android:textSize="14sp" />
 
         <EditText
-            android:id="@+id/editTextPassword"
+            android:id="@+id/passEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -96,27 +96,32 @@
             android:layout_marginTop="8dp"
             android:text="Esqueceu se da palavra passe?"
             android:textAlignment="center"
-            android:textcolor="@color/white"
+            android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/editTextPassword" />
+            />
 
         <Button
-            android:id="@+id/login_btn"
+            android:id="@+id/loginBtn"
             android:layout_width="189dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="32dp"
-            android:backgroundTint="@color/baby_blue"
+            android:gravity="center"
             android:padding="18dp"
             android:text="Login"
-            android:gravity="center"
-            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/forgotpassword"
-            android:textsize="20sp"/>
+            app:layout_constraintTop_toBottomOf="@id/forgotpassword" />
 
-
+        <TextView
+            android:id="@+id/home_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="596dp"
+            android:text="ainda nao tem cadastro?"
+            android:textSize="20sp" />
 
 
     </LinearLayout>
