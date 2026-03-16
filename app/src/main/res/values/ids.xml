@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editNome" type="id" />
+    <item name="editDescricao" type="id" />
+    <item name="editData" type="id" />
+    <item name="spinnerTipo" type="id" />
+    <item name="chipRealizado" type="id" />
+    <item name="buttonCancelar" type="id" />
+    <item name="buttonGuardar" type="id" />
+    <item name="main" type="id" />
+    <item name="textViewTotalEventos" type="id" />
+    <item name="textViewEventosRealizados" type="id" />
+    <item name="nameEt" type="id" />
+    <item name="editTextChurch" type="id" />
+    <item name="editTextPhone" type="id" />
+    <item name="editTextEmail_signup" type="id" />
+    <item name="editTextPassword_signup" type="id" />
+    <item name="signup_btn" type="id" />
+    <item name="layout_login" type="id" />
+    <item name="header_login_button" type="id" />
+</resources>
